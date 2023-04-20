@@ -1,0 +1,14 @@
+{
+  "user": "BrowserStack_Name",
+  "key": "browserstack_key",
+
+  "capabilities": {
+    "build": "behave-browserstack",
+    "name": "single-hat-test",
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
